@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@0;1&family=Roboto:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="scss/styles.scss" />
+    <title>Document</title>
+    <style>
+      body {
+        font-family: "Alumni Sans Pinstripe", sans-serif;
+        font-family: "Roboto", sans-serif;
+      }
+
+      .backgroundlogin {
+        float: left;
+        margin: 2px;
+        border-radius: 7px;
+        display: block;
+        max-width: 100%;
+        height: auto;
+        width: 100%;
+      }
+
+      .loginwelcomefont {
+        font-size: 36px;
+        color: #117272;
+        text-align: center;
+      }
+      .logininbuttoncontainer {
+        display: grid;
+        justify-items: center;
+        row-gap: 20px;
+      }
+      .getstartedbutton {
+        background-color: #94392b;
+        color: white;
+        width: 310px;
+        height: 56px;
+        border-radius: 25px;
+        border: none;
+        font-size: 24px;
+      }
+      .loginbutton {
+        background-color: white;
+        color: #94392b;
+        width: 310px;
+        height: 56px;
+        border-radius: 25px;
+        border-color: #94392b;
+        font-size: 24px;
+      }
+      .getstartedbutton a {
+        color: white;
+        text-decoration: none;
+      }
+      .loginbutton a {
+        color: #94392b;
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <img class="backgroundlogin" src="image/login background.png" />
+    </div>
+
+    <div class="loginwelcomefont">
+      <h2>Welcome to ECO</h2>
+    </div>
+    <div class="logininbuttoncontainer">
+      <button class="getstartedbutton">
+        <a href="signin.html">Get Started</a>
+      </button>
+      <button class="loginbutton">
+        <a href="signin.html">Login</a>
+      </button>
+    </div>
+  </body>
+</html>

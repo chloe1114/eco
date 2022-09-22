@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@0;1&family=Roboto:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="bottombarstyle.css" />
+    <title>Document</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+      .signtoppic{
+        margin-top: 73px;
+      }
+      .event {
+        color: #94392B;
+        border-radius: 2px;
+        border: none;
+        height: 40px;
+        box-shadow: 0px 5px 5px lightgrey;
+        margin-top: 80px;
+      }
+      .upcomingevent {
+        color: #94392B;
+        border-radius: 2px;
+        border: none;
+        height: 40px;
+        box-shadow: 0px 5px 5px lightgrey;
+      }
+      .jointoppic {
+        margin-top: 60px;
+      }
+      .upcomingeventcontanier {
+        background-color: #117272;
+        color: #fff;
+        display: flex;
+        border-radius: 15px;
+        margin: 15px;
+      } 
+    .container__right{
+      margin: 15px;
+    }
+    .eventtype{
+  appearance: none;
+  backface-visibility: hidden;
+  background-color:#117272;
+  border-radius: 8px;
+  border-style: none;
+  box-shadow: rgba(39, 174, 96, .15) 0 4px 9px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Inter,-apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: normal;
+  line-height: 1.5;
+  outline: none;
+  overflow: hidden;
+  padding: 13px 20px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transform: translate3d(0, 0, 0);
+  transition: all .3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: top;
+  white-space: nowrap;
+  margin: 10px;
+}
+
+.eventtype:hover {
+  background-color: #117272;
+  opacity: 1;
+  transform: translateY(0);
+  transition-duration: .35s;
+}
+
+.eventtype:active {
+  transform: translateY(2px);
+  transition-duration: .35s;
+}
+
+.eventtype:hover {
+  box-shadow: rgba(39, 174, 96, .2) 0 6px 12px;
+}   
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="navbar">
+          <div class="container nav-container">
+            <input class="checkbox" type="checkbox" name="" id="" />
+            <div class="hamburger-lines">
+              <span class="line line1"></span>
+              <span class="line line2"></span>
+              <span class="line line3"></span>
+            </div>
+            <div class="logo">
+              <a href="homepage.html"><h1>ECO</h1></a>
+            </div>
+            
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div class="event">
+      <h3>Event</h3>
+    </div>
+<div class="eventtypecontanier">
+  <button class="eventtype"><img src="/image/volunteericon.png"width="51px"><p>Volunteer</p></button>
+  <button class="eventtype"><img src="/image/conferenceicon.png"width="48px"><p>conference</p></button>
+  <button class="eventtype"><img src="/image/workshopicon.png"width="46px"><p>Workshop</p></button>
+</div>
+<div class="upcomingevent">
+  <h3>Upcoming Event</h3>
+</div>
+
+    <div class="upcomingeventcontanier">
+      <!-- Left content -->
+      <div class="container__half">
+        <img src="/image/beachcleanup.jpg" style="width: 120px" />
+      </div>
+
+      <!-- Right content -->
+      <div class="container__right">
+        <h2>Beach clean up day</h2>
+        <p> 4 May,2022</p>
+        <p> 48-56 Tamaki Drive, Mission Bay, Auckland 1071</p>
+      </div>
+    </div>
+    <div class="upcomingeventcontanier">
+      <!-- Left content -->
+      <div class="container__half">
+        <img src="/image/handon.jpg" style="width: 120px" />
+      </div>
+
+      <!-- Right content -->
+      <div class="container__right">
+        <h2>Hands-On with Poplar Poles
+          & Tree Lucerne</h2>
+        <p> 4 May,2022</p>
+        <p> 48-56 Tamaki Drive, Mission Bay, Auckland 1071</p>
+      </div>
+    </div>
+
+    <div class="upcomingeventcontanier">
+      <!-- Left content -->
+      <div class="container__half">
+        <img src="/image/wallace.jpg" style="width: 120px" />
+      </div>
+
+      <!-- Right content -->
+      <div class="container__right">
+        <h2>Wallace farm meeting</h2>
+        <p> 14 June,2022</p>
+        <p> 48-56 Tamaki Drive, Mission Bay, Auckland 1071</p>
+      </div>
+    </div>
+   
+    
+    <div id="mySidepanel" class="sidepanel">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+      <h2>Report Environment Issus</h2>
+      <h3><a href="workinggroup.html">Improved environmental management and laws</h3>
+        <h3><a href="workinggroup.html">Conservation, biosecurity and biodiversity</h3>
+        <h3><a href="workinggroup.html">Oceans, marine and fisheries</h3>
+        <h3><a href="workinggroup.html">International, IUCN, Antarctica and the Southern Ocean</h3>
+        <h3><a href="workinggroup.html">Climate Change and Energy</h3>
+        <h3><a href="workinggroup.html">Open Democratic and Participative Society</h3>
+        <h3><a href="workinggroup.html">Policy and promotion of our vision for the environment</h3>
+    </div>
+
+    <div class="bottomnavbar">
+       
+        <a href="homepage.html">
+          <img class="reporticon" src="/image/reporticon.png" width="35px">
+          <h4>Report</h4>
+          </a>
+           
+        <a onclick="openNav()" href="#news">
+          <img class="workinggroupicon" src="/image/workinggroupicon.png" width="35
+          px">
+          <h4>Working</h4>
+          <h4>Group</h4></a
+        >
+          
+        <a href="petition.html">
+          <img class="signicon" src="/image/signicon.png" width="35
+          px">
+          <h4>Sign</h4>
+          <h4>Petition</h4></a
+        >
+        <a href="Joinevent.html">
+          <img class="eventicon" src="/image/eventicon.png" width="35
+          px">
+          <h4>Join</h4>
+          <h4>Event</h4></a
+        >
+       
+    </div>
+    <script>
+      function openNav() {
+        document.getElementById("mySidepanel").style.width = "414px";
+      }
+
+      function closeNav() {
+        document.getElementById("mySidepanel").style.width = "0";
+      }
+    </script>
+  </body>
+</html>
